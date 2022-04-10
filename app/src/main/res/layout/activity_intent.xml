@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rainbow"
+    >
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Call Phone"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Web Site"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Google Maps"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Send Messages"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
